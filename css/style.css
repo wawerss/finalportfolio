@@ -1,0 +1,317 @@
+body { 
+    overflow-x: hidden; 
+    overflow-y: scroll; 
+}
+.header {
+    height: 630px;
+    background-image: url("../img/bg-home-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.logo-container { 
+    margin-bottom: 0;
+    text-align: center;
+}
+.logo-container .logo {
+    width: 100px;
+    margin: 10px 0;
+    text-align: center;
+}
+.top-banner {
+    margin-top: 13% !important;
+}
+.menu {
+    background-color: #00000026;
+    font-size: 25px;
+}
+.top-title{
+    margin-top: 15% !important;
+    font-size: 50px;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration-color: white;
+    margin-bottom: 0;
+    float: right;
+    padding-right: 40px;
+    width: 100%;
+
+}
+nav.left {
+    padding-right: 0;
+    float: left;
+    width: 100%;
+}
+nav.right ul{
+    padding-left: 0;
+    text-align: right;
+}
+nav ul {
+    margin-bottom: 0 !important;
+    width: 100%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 40px;
+}
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 3px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: 'Anton', sans-serif;
+}
+nav ul li a:hover{
+    color: #0dcaf0;
+
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #0dcaf0;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+h1.title {
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #0dcaf0;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+
+}
+.top-title h1{
+    color: #fff;
+    letter-spacing: 5px;
+    margin-top: 13%;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.about-us {
+    max-width: 1200px !important;
+    margin: 50px auto !important;
+    position: relative;
+}
+.about-us p {
+    margin-bottom: 50px;
+}
+.bg-2 {
+    position: absolute;
+    left: -310px;
+    top: -50px;
+    width: 470px;
+}
+.bg-1 {
+    position: absolute;
+    right: -346px;
+    bottom: -53px;
+    width: 470px;
+}
+/* Team */
+.team { 
+  max-width: 800px; 
+  margin: 0 auto !important; 
+}
+.team .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: width 2s;
+  width:100%;
+  overflow:hidden;
+  position: relative;
+}
+.team .img:after{
+  background: #0dcaf0;
+  position:absolute;
+  width:100%;
+  height:400px;
+  bottom: -400px;
+  left:0px;
+  content:"";
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.team .img:hover:after{
+  background: #0dcaf0;;
+  position:absolute;
+  width:100%;
+  height:400px;
+  bottom:0px;
+  left:0px;
+  opacity: 0.7;
+}
+.team .img:hover .social {
+  display: block;
+}
+.team .img.honey {
+ background-image: url('../img/honey-bg.jpg');
+}
+.team .img.arvin {
+ background-image: url('../img/arvin-bg.jpg');
+}
+.team .img.kaye {
+ background-image: url('../img/kaye-bg.jpg');
+}
+.team .social {
+  z-index: 10;
+  display: none;
+}
+.team .social ul {
+  list-style-type: none;
+  padding-left: 0 !important;
+}
+.team .social ul li {
+  float: left;
+  padding: 0 20px;
+}
+.team .social ul li a i {
+  color: #000;
+  font-size: 24px;
+}
+.team .social ul li a:hover i {
+    font-size: 28px;
+}
+.team .name {
+  font-size: 22px;
+  padding: 10px 0 !important;
+  letter-spacing: 2px;
+  font-family: 'Anton', sans-serif;
+  color: #000 !important;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  letter-spacing: 4px;
+}
+.team .name:hover{
+  color: #0dcaf0 !important; 
+  text-decoration: underline;
+}
+
+/* Gallery */
+.gallery {
+    background-image: url('../img/gallery-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0;
+}
+.gallery p{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.gallery a {
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+    color: #0dcaf0;
+    float: right;
+    font-size: 50px;
+    padding: 20px 0;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.gallery a:hover {
+    color: #000;
+}
+.gallery-tab {
+    max-width: 1200px;
+    margin: 0 auto !important;
+}
+#v-pills-tab {
+    background: #c1c1c1;
+    padding: 10px;
+}
+.nav-pills .nav-link,
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000 !important;
+    background-color: white !important;
+    margin: 5px 0;
+    border-radius: 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: relative;
+}
+.nav-pills .nav-link.active:after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: -35px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 25px solid #c1c1c1;
+    display: block;
+    width: 0;
+}
+.slick-slide .img-slider{
+    float: left;
+    width: 33% !important;
+    padding: 0 5px !important;
+}
+.slick-slide .img-slider img {
+    width: 100%;
+    border: 5px solid #c1c1c1;
+    border-radius: 10px;
+}
+.slick-list.draggable {
+    margin: 0 50px;
+}
+.carousel.slick-initialized.slick-slider.slick-dotted {
+    position: relative;
+}
+i.slick-prev.pull-left.fas.fa-angle-left.slick-arrow {
+    position: absolute;
+    left: 0;
+    top: 42%;
+    cursor: pointer;
+    font-size: 50px;
+    color: #fff;
+}
+i.slick-next.pull-right.fas.fa-angle-right.slick-arrow{
+    position: absolute;
+    right: 0;
+    top: 42%;
+    cursor: pointer;
+    font-size: 50px;
+    color: #fff;
+}
+ul.slick-dots {
+    text-align: center;
+}
+ul.slick-dots li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.tab-content>.tab-pane {
+    padding: 0 !important;
+    background-color: transparent !important;
+}
