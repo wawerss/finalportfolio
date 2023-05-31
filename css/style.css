@@ -285,12 +285,10 @@ p{
     display: block;
     width: 0;
 }
-.slick-slide .img-slider{
-    float: left;
-    width: 33% !important;
+.slick-slide.img-slider{
     padding: 0 5px !important;
 }
-.slick-slide .img-slider img {
+.slick-slide.img-slider img {
     width: 100%;
     border: 5px solid #c1c1c1;
     border-radius: 10px;
@@ -655,6 +653,9 @@ ul.slick-dots li {
     margin: 0 auto;
     background-position: top center;
   }
+  .team .img:hover:after {
+    height: 500px !important;
+  }
   .modal-header {
     height: 132px !important;
   }
@@ -665,6 +666,12 @@ ul.slick-dots li {
   }
   .top-title h1 { 
     bottom: 37% !important;
+  }
+  .bg-2 {
+    top: -130px !important;
+  }
+  .slider {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 480px) {
