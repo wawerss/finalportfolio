@@ -1,6 +1,10 @@
 body { 
     overflow-x: hidden; 
-    overflow-y: scroll; 
+    overflow-y: scroll !important; 
+    overflow: hidden;
+}
+.container-fluid {
+    overflow: hidden;
 }
 .header {
     height: 630px;
@@ -8,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 .logo-container { 
     margin-bottom: 0;
@@ -22,12 +27,18 @@ body {
     margin-top: 13% !important;
 }
 .menu {
-    background-color: #00000026;
+    position: fixed;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 10;
+    background-color: #00000052;
     font-size: 25px;
 }
 .top-title{
-    margin-top: 15% !important;
     font-size: 50px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 nav{
     display:flex;
@@ -106,10 +117,12 @@ p{
 .top-title h1{
     color: #fff;
     letter-spacing: 5px;
-    margin-top: 13%;
     font-size: 22px;
     font-weight: 400;
     font-family: 'Anton', sans-serif;
+    position: absolute;
+    width: 100%;
+    bottom: 13%;
 }
 .about-us {
     max-width: 1200px !important;
@@ -129,7 +142,7 @@ p{
     position: absolute;
     right: -346px;
     bottom: -53px;
-    width: 470px;
+    width: 470px !important;
 }
 /* Team */
 .team { 
@@ -314,4 +327,359 @@ ul.slick-dots li {
 .tab-content>.tab-pane {
     padding: 0 !important;
     background-color: transparent !important;
+}
+.honey_ban {
+    background-image: url('../img/honey_ban.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+}
+.arvin_ban {
+    background-image: url('../img/arvin_ban.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+}
+.kaye_ban {
+    background-image: url('../img/kaye_ban.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+}
+.btn-close{
+    top: 13px;
+    right: 14px;
+    position: absolute;
+    color: #fff;
+}
+.modal-body {
+    padding: 50px !important;
+}
+.modal-body h5 {
+    line-height: 34px;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+.Activities {
+    margin: 50px auto !important;
+    position: relative;
+    max-width: 1000px !important;
+}
+.Activities .title {
+    margin-bottom: 25px;
+}
+.Activities .box-content {
+    margin-bottom: 50px;
+    background-color: #19e7fd;
+    padding: 20px;
+    border-radius: 50px;
+}
+.Activities .box-content p,
+.Activities .box-content a {
+    text-align: left !important;
+    font-family: 'Teko', sans-serif;
+}
+.Activities .box-content p {
+    font-size: 20px;
+}
+.Activities .box-content a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 40px;
+}
+.Activities .box-content a:hover {
+    color: #fff !important;
+}
+.Activities .box-content.no-margin {
+    margin-bottom: 0 !important;
+}
+.Activities .box-content img {
+    height: 180px;
+}
+.Activities .bg-2{
+    left: -425px !important;
+}
+.Activities .bg-1{
+    right: -425px !important;
+}
+
+.contact {
+  background-image: url('../img/our-activities.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.contact .box-content {
+  margin: 30px auto;
+  color: #fff;
+  max-width: 800px;
+}
+.contact .box-content h1 {
+  margin-bottom: 20px;
+  font-family: 'Teko', sans-serif;
+  font-size: 60px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.contact .content {
+  border-radius: 5px;
+  background-color: rgb(155 150 150 / 40%);
+  padding: 20px;
+  text-align: left;
+  margin: 0 auto;
+}
+.contact .content label{
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.contact .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact .form-row i {
+    font-size: 40px;
+    margin-right: 20px;
+    color: #dbdee3 !important;
+}
+.contact .form-row .col-md-6 {
+    padding-right: 10px;
+    width: 46%;
+}
+.contact .form-row .col-md-12 {
+    width: 90.5%
+}
+.contact .submit {
+    width: 100%;
+    text-align: right;
+    padding-right: 9px;
+    margin-top: 20px;
+}
+.contact .submit button {
+    font-family: 'Teko', sans-serif;
+    background: #0dcaf0;
+    width: 120px;
+    font-size: 24px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+.footer {
+    background-color: #242424;
+    font-family: 'Teko', sans-serif;
+    padding: 50px 0;
+    color: #fff;
+}
+.footer .left-footer ul {
+    text-decoration: none;
+    margin-bottom: 0;
+}
+.footer .left-footer ul li {
+    display: block;
+    line-height: 35px;
+    font-size: 25px;
+}
+.footer img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+.footer p {
+    font-size: 25px;
+}
+
+/*Mobile Menu */
+.mobile {
+    display: none;
+}
+.mobile-logo img {
+    width: 120px;
+    margin-top: 20px;
+}
+.button_container {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .25s ease;
+}
+.button_container:hover {
+  opacity: .7;
+}
+.button_container.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #FFF;
+}
+.button_container.active .middle {
+  opacity: 0;
+  background: #FFF;
+}
+.button_container.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #FFF;
+}
+.button_container span {
+  background: #95e9f2;
+  border: none;
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .35s ease;
+  cursor: pointer;
+}
+.button_container span:nth-of-type(2) {
+  top: 11px;
+}
+.button_container span:nth-of-type(3) {
+  top: 22px;
+}
+
+.overlay {
+  position: fixed;
+  background: #19e7fde0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  z-index: 11;
+}
+.overlay.open {
+  opacity: .9;
+  visibility: visible;
+  height: 100%;
+}
+.overlay.open li {
+  animation: fadeInRight .5s ease forwards;
+  animation-delay: .35s;
+}
+.overlay.open li:nth-of-type(2) {
+  animation-delay: .4s;
+}
+.overlay.open li:nth-of-type(3) {
+  animation-delay: .45s;
+}
+.overlay.open li:nth-of-type(4) {
+  animation-delay: .50s;
+}
+.overlay nav {
+  position: relative;
+  height: 70%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  font-family: 'Teko', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+}
+.overlay ul li {
+  display: block;
+  height: auto;
+  position: relative;
+  opacity: 0;
+}
+.overlay ul li a {
+  display: block;
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  overflow: hidden;
+}
+.overlay ul li a:hover {
+    color: #fff;
+}
+.overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+  width: 100%;
+}
+.overlay ul li a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0%;
+  transform: translateX(-50%);
+  height: 3px;
+  background: #FFF;
+  transition: .35s;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block !important;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .header {
+    height: 630px;
+    background-image: url("../img/mobile-header-bg.jpg");
+  }
+  .col-sm-6 {
+    width: 50% !important;
+  }
+  .team .img {
+    height: 500px !important;
+    width: 90% !important;
+    margin: 0 auto;
+    background-position: top center;
+  }
+  .modal-header {
+    height: 132px !important;
+  }
+  .Activities .box-content {
+    width: 70% !important;
+    margin-bottom: 40px !important;
+    margin: 0 auto;
+  }
+  .top-title h1 { 
+    bottom: 37% !important;
+  }
+}
+@media screen and (max-width: 480px) {
+    .modal-header {
+        height: 110px !important;
+    }
+}
+@media screen and (max-width: 450px) { 
+    .header {
+        height: 630px;
+        background-image: url("../img/s-mobile-header-bg.jpg");
+    }
+}
+@media screen and (max-width: 410px) {
+    .modal-header {
+        height: 90px !important;
+    }
 }

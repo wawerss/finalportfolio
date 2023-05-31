@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +23,23 @@
 	<div class="container-fluid p-0">
 		<div class="row ">
 			<div class="col-md-12 header" id="home">
-				<div class="row menu align-items-center">
+				<div class="hamburger-menu mobile">
+					<div class="mobile-logo text-center">
+						<img src="img/logo.png">
+					</div>
+				    <div class="button_container" id="toggle"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+		            <div class="overlay" id="overlay">
+		                <nav class="overlay-menu">
+		                    <ul>
+		                        <li><a href="#home">HOME</a></li>
+								<li><a href="#about-us">ABOUT US</a></li>
+								<li><a href="#our-activities">ACTIVITIES</a></li>
+								<li><a href="#contact-us">GET IN TOUCH!</a></li>
+		                    </ul>
+		                </nav>
+		            </div>
+		        </div>
+				<div class="row menu align-items-center desktop">
 					<div class="col-md-5">
 						<nav class="left">
 							<ul>
@@ -43,10 +59,10 @@
 						<nav class="right">
 							<ul>
 								<li>
-									<a href="">ACTIVITIES</a>
+									<a href="#our-activities">ACTIVITIES</a>
 								</li>
 								<li>
-									<a href="">GET IN TOUCH!</a>
+									<a href="#contact-us">GET IN TOUCH!</a>
 								</li>
 							</ul>
 						</nav>
@@ -62,7 +78,7 @@
 				<img src="img/bg-2.png" class="bg-2">
 				<h1 class="text-center title">ABOUT US</h1>
 				<h2>Meet our Viruses</h2>
-				<p>Lorem ipsum dolor sit amit. Lorem ipsum dolor sit amit. </p>
+				<p>We search, copy, paste, revise, and learn—. We are the team trojan horse. Do you know that The umbrella is Yang, the human is Yin and in programming we learned nothing.</p>
 				<div class="row">
 					<div class="col-md-4 text-center team">
 						<div class="img honey">
@@ -93,7 +109,7 @@
 							<div class="social">
 								<ul>
 									<li>
-										<a href="https://www.facebook.com/frankalcordo.alcordo" target="_blank">
+										<a href="https://www.facebook.com/profile.php?id=100010080271386" target="_blank">
 											<i class="fa-brands fa-facebook"></i>
 										</a>
 									</li>
@@ -103,7 +119,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="mailto:alcordofrank@gmail.com">
+										<a href="mailto:arvinpepito777@gmail.com">
 											<i class="fa-brands fa-google"></i>
 										</a>
 									</li>
@@ -134,14 +150,14 @@
 								</ul>
 							</div>
 						</div>
-						<a  class="name" data-bs-toggle="modal" data-bs-target="#exampleModal1">Kaye Delgado</a>
+						<a  class="name" data-bs-toggle="modal" data-bs-target="#exampleModal2">Kaye Delgado</a>
 					</div>
 				</div>
 				<img src="img/bg-1.png" class="bg-1">
 			</div>
 			<div class="col-md-12 gallery">
 				<h1 class="text-center title">OUR GALLERY</h1>
-				<p>Lorem ipsum dolor sit amit. Lorem ipsum dolor sit amit. </p>
+				<p>This section showcases the faces behind Trojan Horse for further reference and in order for you to know them more.</p>
 				<div class="row gallery-tab">
 	            	<div class="col-md-3"> <!-- required for floating -->
 		           		<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -156,19 +172,40 @@
 		                      	<div class="slider">
 									<div class="slick-carousel">
 										<div class="img-slider">
-											<img src="img/honey-bg.jpg">
+											<img src="img/honey-img-1.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/honey-bg.jpg">
+											<img src="img/honey-img-2.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/honey-bg.jpg">
+											<img src="img/honey-img-3.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/honey-bg.jpg">
+											<img src="img/honey-img-4.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/honey-bg.jpg">
+											<img src="img/honey-img-5.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-6.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-7.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-8.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-9.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-10.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-11.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/honey-img-12.png">
 										</div>
 									</div>
 								</div>
@@ -178,19 +215,40 @@
 		                        <div class="slider">
 									<div class="slick-carousel">
 										<div class="img-slider">
-											<img src="img/arvin-bg.jpg">
+											<img src="img/arvin-img-1.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/arvin-bg.jpg">
+											<img src="img/arvin-img-2.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/arvin-bg.jpg">
+											<img src="img/arvin-img-3.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/arvin-bg.jpg">
+											<img src="img/arvin-img-4.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/arvin-bg.jpg">
+											<img src="img/arvin-img-5.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-6.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-7.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-8.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-9.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-10.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-11.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/arvin-img-12.png">
 										</div>
 									</div>
 								</div>
@@ -200,19 +258,40 @@
 		                        <div class="slider">
 									<div class="slick-carousel">
 										<div class="img-slider">
-											<img src="img/kaye-bg.jpg">
+											<img src="img/kaye-img-1.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/kaye-bg.jpg">
+											<img src="img/kaye-img-2.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/kaye-bg.jpg">
+											<img src="img/kaye-img-3.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/kaye-bg.jpg">
+											<img src="img/kaye-img-4.png">
 										</div>
 										<div class="img-slider">
-											<img src="img/kaye-bg.jpg">
+											<img src="img/kaye-img-5.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-6.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-7.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-8.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-9.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-10.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-11.png">
+										</div>
+										<div class="img-slider">
+											<img src="img/kaye-img-12.png">
 										</div>
 									</div>
 								</div>
@@ -220,6 +299,170 @@
 		                </div>
 		            </div>
 			    </div>
+			</div>
+			<div class="col-md-12 Activities" id="our-activities">
+				<img src="img/bg-2.png" class="bg-2">
+				<h1 class="text-center title">OUR ACTIVITIES</h1>
+				<div class="row">
+					<div class="col-md-12 box-content">
+						<div class="row">
+							<div class="col-md-4 text-center box">
+								<img src="img/periodic-img.png">
+							</div>
+							<div class="col-md-8 text-center box">
+								<a href="tableofelements.html" target="_blank">1. PERIODIC TABLE</a>
+								<p>The periodic table is a tabular array of the chemical elements organized by atomic number, from the element with the lowest atomic number, hydrogen, to the element with the highest atomic number, oganesson. The atomic number of an element is the number of protons in the nucleus of an atom of that element. Hydrogen has 1 proton, and oganesson has 118.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 box-content">
+						<div class="row">
+							<div class="col-md-8 text-center box">
+								<a href="survey.html" target="_blank">2. SURVEY FORM</a>
+								<p>Survey form is a method of collecting data from people. Survey form have a diversity of goals, and can be regulated in various ways. Survey forms may be regulated to collect data through a printed questionnaire over the telephone, by mail, in person or on the web.</p>
+							</div>
+							<div class="col-md-4 text-center box">
+								<img src="img/survey-img.png">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 box-content no-margin">
+						<div class="row">
+							<div class="col-md-4 text-center box">
+								<img src="img/responsive-img.png">
+							</div>
+							<div class="col-md-8 text-center box">
+								<a href="responsive.html" target="_blank">3. RESPONSIVE LAYOUT</a>
+								<p>Responsive web design, or RWD, is a design approach that addresses the range of devices and device sizes, enabling automatic adaption to the screen, whether the content is viewed on a tablet, phone, television, or watch. Responsive web design isn't a separate technology — it is an approach.</p>
+							</div>
+						</div>
+					</div>
+					<img src="img/bg-1.png" class="bg-1">
+				</div>
+			</div>
+			<div class="col-md-12 contact" id="contact-us">
+				<h1 class="text-center title">GET IN TOUCH</h1>
+				<div class="row">
+					<div class="col-md-12 box-content">
+						<div class="content">
+							<form>
+							  	<div class="form-row">
+							    	<i class="fa-solid fa-circle-user"></i>
+								    <div class="form-group col-md-6">
+								      <label for="inputEmail4">First Name</label>
+								      <input type="email" class="form-control" id="inputEmail4" placeholder="">
+								    </div>
+								    <div class="form-group col-md-6">
+								      <label for="inputPassword4">Last Name</label>
+								      <input type="password" class="form-control" id="inputPassword4" placeholder="">
+									</div>
+								</div>
+								<div class="form-row">
+									<i class="fa-solid fa-phone"></i>
+									<div class="form-group col-md-12">
+									    <label for="inputAddress">Phone</label>
+									    <input type="text" class="form-control" id="inputAddress" placeholder="">
+									</div>
+								</div>
+								<div class="form-row">
+									<i class="fa-solid fa-envelope"></i>
+									<div class="form-group col-md-12">
+								    	<label for="inputAddress2">Email</label>
+								    	<input type="text" class="form-control" id="inputAddress2" placeholder="">
+								  	</div>
+								</div>
+								<div class="form-row">
+									<i class="fa-solid fa-message"></i>
+									<div class="form-group col-md-12">
+								    	<label for="inputAddress2">Message</label>
+								    	<textarea  class="form-control" id="inputAddress2" ></textarea>
+								  	</div>
+								</div>
+								<div class="submit">
+									<button type="submit" class="btn btn-primary">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 footer desktop">
+				<div class="row align-items-center">
+					<div class="col-md-4 col-sm-4 left-footer">
+						<ul>
+							<li><i class="fa-solid fa-phone"></i> 09252481268</li>
+							<li><i class="fa-brands fa-facebook"></i> Trojan Horse Developers</li>
+							<li><i class="fa-brands fa-instagram"></i> thetrojansdev</li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-sm-4 center-footer text-center">
+						<img src="img/logo.png">
+						<p>© Copyright 2023. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-4 col-sm-4 right-footer">
+						<p>WE SEARCH<br> WE COPY <br>WE PASTE</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 footer mobile">
+				<div class="row align-items-center">
+					<div class="col-sm-12 left-footer text-center">
+						<img src="img/logo.png">
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-sm-6 left-footer">
+								<ul>
+									<li><i class="fa-solid fa-phone"></i> 09235842687</li>
+									<li><i class="fa-brands fa-facebook"></i> Trojan Horse Developers </li>
+									<li><i class="fa-brands fa-instagram"></i> trojanhorse</li>
+								</ul>
+							</div>
+							<div class="col-sm-6 right-footer">
+								<p>Sleep<br>Code<br>Repeat</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 center-footer text-center">
+						<p>© Copyright 2023. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+				  <div class="modal-header honey_ban">
+				    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+				   	<h5>Hola! I'm Honey Margarette, the girl with the sweetest name who is the exact opposite of her character. Everyone calls me "Margs," shorthand for Margarette, with a double "t" rather than a "th." For the last 6996 days, I have been wrongly extracted from my mother's womb. I reside in Cordova and am pursuing a Bachelor of Science in Information Technology at the Cordova Public College. I have many ambitions, but none of them have to do with becoming a computer programmer.  My favorite hobby is gaslighting myself that I can survive in this degree. My favorite food is nothing since I only eat when I am starving to death.I do believe in love at first sight, but it pays to take a second look. </h5>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+				  <div class="modal-header arvin_ban">
+				    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+				   	<h5>Hello Im Arvin a BSIT first year student at Cordova Public College..They said that programming is easy but thats totally a lie hahahah... If my code doesnt run all i do is run for mylife so that the code doesnt run for me and my grades too. My dreams in life is just simple all i want is to wake up with a warm coffee and have a never ending project of an IT employee in the future.... I reside at Buagsong Cordova Cebu you will easily find me if you ask where is the house of "Arvz Handsome" just kidding.. Always remember that life is not a fairy tale if you lose your shoe at midnight... Youre just drunk</h5>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+				  <div class="modal-header kaye_ban">
+				    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+				   	<h5>Haloo I'm Kaye, not a key but pronounced as key but a KAYE. I used to believe in True love but it's a lie for people who's see-ingle. A 1st-year student, taking the degree of Information Technology with three threes. An ambivert and Silence will always be my therapy. Been living on Earth for 6935 days and counting. I reside somewhere in Lapu-Lapu City. I do have a lot of hobbies but the one I most likely do is to assume that this course is for me.</h5>
+				  </div>
+				</div>
 			</div>
 		</div>
 	</div>

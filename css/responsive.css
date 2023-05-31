@@ -1,0 +1,9 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #D4F1F4;
+}
+.home{
+    background-image: url(../img/bluegrotto1.jpg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

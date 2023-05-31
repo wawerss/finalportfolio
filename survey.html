@@ -1,0 +1,253 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+    <script type="text/javascript" src="js/custom.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+          <img src="img/survey-banner.jpg" class="img-banner">
+          <div class="col-md-10 text-center ">
+              <div class="card ">
+                  <form id="trojan-forms">
+                      <ul id="progressbar">
+                          <li class="active" id="account"><strong>Account</strong></li>
+                          <li id="personal"><strong>Questionnaires</strong></li>
+                          <li id="payment"><strong>Recommendation</strong></li>
+                          <li id="confirm"><strong>Finish</strong></li>
+                      </ul>
+                      <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div> <br>
+                      <fieldset>
+                          <div class="form-card">
+                              <div class="row">
+                                  <div class="col-7">
+                                      <h2 class="fs-title">Sign Up:</h2>
+                                  </div>
+                                  <div class="col-5">
+                                      <h2 class="steps">Step 1 - 4</h2>
+                                  </div>
+                              </div> 
+                              <div class="form-box">
+                                  <label class="fieldlabels">Full Name: </label> 
+                                  <input type="name" name="name" placeholder="" /> 
+                                  <label class="fieldlabels">Username: </label> 
+                                  <input type="text" name="uname" placeholder="" /> 
+                                  <label class="fieldlabels">Password: </label> 
+                                  <input type="password" name="pwd" placeholder="" /> 
+                                  <label class="fieldlabels">Confirm Password: </label> 
+                                  <input type="password" name="cpwd" placeholder="" />
+                              </div>
+                          </div> 
+                          <input type="button" name="next" class="next action-button" value="Next" />
+                      </fieldset>
+                      <fieldset>
+                          <div class="form-card">
+                              <div class="row">
+                                  <div class="col-7">
+                                      <h2 class="fs-title">Questions:</h2>
+                                  </div>
+                                  <div class="col-5">
+                                      <h2 class="steps">Step 2 - 4</h2>
+                                  </div>
+                              </div> 
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <p>1. Where did you learn about our website?</p>  
+                                      <input type="radio" value="value2" name="group4">
+                                      <label for="Peers">Friends</label><br>
+                                      <input type="radio" value="value2" name="group4">
+                                      <label for="Peers">Search engine results</label><br>
+                                      <input type="radio" value="value2" name="group4">
+                                      <label for="Peers">Email advertisement</label><br>
+                                      <input type="radio" value="value2" name="group4">
+                                      <label for="Peers">Paper advertisement</label><br>
+                                      <input type="radio" value="value2" name="group4">
+                                      <label for="Peers">Others</label><br>
+                                      <input type="text" value="" name="group4">
+                                </div>
+                                <div class="col-md-6">
+                                    <p>2. About how often do you visit our website?</p>  
+                                      <input type="radio" value="value2" name="group3">
+                                      <label for="Peers">More than once a day</label><br>
+                                      <input type="radio" value="value2" name="group3">
+                                      <label for="Peers">Once a day</label><br>
+                                      <input type="radio" value="value2" name="group3">
+                                      <label for="Peers">Several times a week</label><br>
+                                      <input type="radio" value="value2" name="group3">
+                                      <label for="Peers">Once a month</label><br>
+                                      <input type="radio" value="value2" name="group3">
+                                      <label for="Peers">This is my first visit</label><br>
+                                </div>
+                                <div class="col-md-12">
+                                    <table>
+                                      <tr class="thead">
+                                        <th></th>
+                                        <th>Strongly Agree</th>
+                                        <th>Agree</th>
+                                        <th>Neutral</th>
+                                        <th>Disagree</th>
+                                        <th>Strongly Disagree</th>
+                                        <th>N/A</th>
+                                      </tr>
+                                      <tr>
+                                        <td>The Website is easy to navigate</td>
+                                        <td>
+                                            <input type="radio" value="value2" name="group2">
+                                        </td>
+                                        <td> 
+                                            <input type="radio" value="value2" name="group2">
+                                        </td>
+                                        <td> 
+                                            <input type="radio" value="value2" name="group2">
+                                        </td>
+                                        <td> 
+                                            <input type="radio" value="value2" name="group2">
+                                        </td>
+                                        <td> 
+                                            <input type="radio" value="value2" name="group2">
+                                        </td>
+                                        <td> 
+                                            <input type="radio" value="value2" name="group2">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Advertisement did not interfere with navigations?</td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group1">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group1">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group1">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group1">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group1">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group1">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>I was able to find what I was looking for</td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group7">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group7">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group7">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group7">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group7">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group7">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>Color choice was used consistently accross every page</td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group6">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group6">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group6">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group6">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group6">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group6">
+                                        </td>
+                                      </tr>
+                                      <tr>
+                                        <td>The Website has professional look</td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group5">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group5">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group5">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group5">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group5">
+                                        </td>
+                                        <td>
+                                            <input type="radio" value="value1" name="group5">
+                                        </td>
+                                      </tr>
+                                    </table>
+                                </div>
+                              </div>
+                          </div> 
+                          <input type="button" name="next" class="next action-button" value="Next" /><input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                      </fieldset>
+                      <fieldset>
+                          <div class="form-card">
+                              <div class="row">
+                                  <div class="col-7">
+                                      <h2 class="fs-title">Write Something about us:</h2>
+                                  </div>
+                                  <div class="col-5">
+                                      <h2 class="steps">Step 3 - 4</h2>
+                                  </div>
+                              </div> 
+                              <label class="fieldlabels">What could we improve?</label> 
+                              <textarea></textarea>
+                          </div>
+                          <input type="button" name="next" class="next action-button" value="Submit" /> 
+                          <input type="button" name="previous" class="previous action-button-previous" value="Previous" />
+                      </fieldset>
+                      <fieldset>
+                          <div class="form-card">
+                              <div class="row">
+                                  <div class="col-7">
+                                      <h2 class="fs-title">Finish:</h2>
+                                  </div>
+                                  <div class="col-5">
+                                      <h2 class="steps">Step 4 - 4</h2>
+                                  </div>
+                              </div> <br><br>
+                              <h2 class="purple-text text-center"><strong>SUCCESS !</strong></h2> <br>
+                              <div class="row justify-content-center">
+                                  <div class="col-7 text-center">
+                                      <h5 class="purple-text text-center">Thank you for answering our survey!</h5>
+                                  </div>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,281 @@
+body{
+    margin: 4%;
+    background-color: whitesmoke;
+}
+
+.spanA{
+    display: inline;
+    display: inline-table;
+    padding: 10px;
+}
+.title p{
+    font-size: 30px;
+}
+
+.colors{
+    margin-left: 25%;
+    margin-bottom: 2%;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color: #cef0f5;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle1{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color:  #f8c39c;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle2{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color:  #bad4f8;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle3{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color: #e4d2f5;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle4{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color:  #c7fae2;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle5{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color: #fde07f;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle6{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color:  #ffe7e7;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle7{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color:  #bebebe;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle8{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color:   #f8d0d6;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle9{
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    background-color: #cee6f5;
+    border-radius: 100%;
+    border-style: solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.circle p{
+    font-size: 15px;
+    
+}
+
+@media only screen and (min-width: 600px) {
+
+table{  
+    height: auto;
+    width: auto;
+    border-spacing: 5px;
+    margin-left: 2%;
+}
+    }
+
+tr{
+    border: 1px solid;
+}
+
+td{
+    transition: transform;
+    width: 61px;
+    height: 61px;
+    justify-content: center;
+}
+
+td:hover {
+    transform:scale(2.2);
+    opacity: 5;
+  }
+
+th, td{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+td, h1{
+ 
+    font-size: 12px;
+}
+
+sup{
+    font-size: 8px;
+    vertical-align: super;
+}
+
+
+.side{
+    margin-right: 12px;
+}
+
+
+.tborder{
+    visibility: collapse;
+}
+
+p{
+    font-size: 9px;
+    text-align: center;
+}
+
+.tfoot{
+    border-spacing: 10%;
+}
+
+.tborder1{
+    visibility: collapse;
+    height: 40px;
+}
+
+h6{
+    font-size: 10px;
+}
+
+.ename{
+    font-weight: bold;
+    font-size: 70%;
+}
+.space{
+    visibility: collapse;
+
+}
+
+.txt{
+    font-size: 18px;
+}
+
+.Hy{
+    line-height: 50%;
+}
+
+.lightblue{
+    background-color: #bad4f8;
+    border-color: #0060f0;
+    color: #0060f0;
+    stroke: #0060f0;
+}
+
+.lightorange{
+    background-color: #fde07f;
+    border-color: #945700;
+    color: #945700;
+    stroke: #945700
+}
+
+.whiteblue{
+    background-color: #d8f8ff;
+    border-color: #00758c;
+    color: #00758c;
+    stroke: #00758c;
+}
+
+.lightred1{
+    background-color: #ffe7e7;
+    border-color: #d60024;
+    color: #d60024;
+    stroke: #d60024;
+}
+
+.lightviolet{
+    background-color: #e4d2f5;
+    border-color: #6232ec;
+    color: #6232ec;
+    stroke: #6232ec;
+}
+
+.gray{
+    background-color: #bebebe;
+    border-color: #3f374f;
+    color: #3f374f;
+    stroke: #3f374f;
+}
+
+.green{
+    background-color:  #c7fae2;
+    border-color: #227754;
+    color: #227754;
+    stroke: #227754;
+}
+.lightgreen{
+    background-color: #cee6f5;
+    border-color: #003355;
+    color: #003355;
+}
+
+.red{
+    background-color: #f8c39c;
+    border-color: #c73200;
+    color: #c73200;
+    stroke: #c73200
+}
+
+.lightred{
+    background-color: #f8d0d6;
+    border-color: #cd1d5e;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+}
+
+.label2{
+    border-radius: 50%;
+}
